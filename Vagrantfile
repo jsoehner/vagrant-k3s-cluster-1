@@ -1,6 +1,7 @@
-MASTER_COUNT = 3
-NODE_COUNT = 3
-IMAGE = "ubuntu/bionic64"
+MASTER_COUNT = 1
+NODE_COUNT = 1
+#IMAGE = "bento/ubuntu-20.10"
+IMAGE = "roboxes/ubuntu2010"
 
 Vagrant.configure("2") do |config|
 
